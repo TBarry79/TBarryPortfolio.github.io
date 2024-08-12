@@ -1,32 +1,25 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Portfolio TBarry
 
+**Portfolio TBarry** est un site personnel mettant en avant divers projets en science des données et en apprentissage automatique. Il est conçu pour présenter de manière claire et interactive les projets réalisés, en mettant en avant les compétences techniques et les réalisations.
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+## Présentation
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Ce portfolio présente une sélection de projets, incluant des modèles avancés d'apprentissage automatique, des visualisations de données, et des solutions basées sur le cloud. Chaque projet est détaillé avec son impact, les outils utilisés, et un lien pour consulter l'implémentation complète sur GitHub.
 
-(* = not included)
+## Fonctionnalités
 
-AJ
-aj@lkn.io | @ajlkn
+- **Présentation des projets :** Descriptions détaillées et résultats de chaque projet.
+- **Visualisations interactives :** Tableaux de bord et visualisations créés avec des outils modernes.
+- **Détails techniques :** Informations approfondies sur les outils et techniques utilisés dans chaque projet.
 
+## Technologies Utilisées
 
-Credits:
+- **Technologies Web :** HTML5, CSS3, JavaScript
+- **Outils de Science des Données :** Python, scikit-learn, TensorFlow, Pyspark
+- **Outils de Visualisation :** Streamlit, Plotly
+- **Outils de Déploiement :** Docker, Flask, AWS
+- **Contrôle de Version :** Git, GitHub
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## Contact
 
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+- **Email :** [tbarry.bt@gmail.com](mailto:tbarry.bt@gmail.com)

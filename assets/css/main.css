@@ -7,6 +7,37 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Style pour la section d'introduction */
+#intro {
+    text-align: center; /* Centrer le texte et les images */
+    padding: 20px; /* Ajuster le padding global pour plus de compacité */
+}
+
+#intro h1 {
+    font-size: 2.5em; /* Taille du titre */
+    margin-bottom: 10px; /* Espace sous le titre */
+}
+
+#intro .image.profile {
+    max-width: 150px; /* Ajuster la taille de l'image */
+    border-radius: 50%; /* Rendre l'image ronde */
+    margin: 10px 0; /* Réduire l'espace autour de l'image */
+}
+
+#intro p {
+    font-size: 1em; /* Taille de la police pour les paragraphes */
+    margin: 0 0 10px; /* Réduire l'espace sous les paragraphes */
+}
+
+#intro .actions {
+    margin-top: 20px; /* Espacement avant le bouton */
+}
+
+#intro .actions .button {
+    font-size: 1em; /* Taille du bouton */
+    padding: 10px 20px; /* Padding pour le bouton */
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
