@@ -1,8 +1,29 @@
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
+/* Include Slick JS */
+document.addEventListener("DOMContentLoaded", function() {
+	const slides = document.querySelectorAll(".image-slide");
+	let currentIndex = 0;
+
+	function showSlide(index) {
+		slides.forEach((slide, i) => {
+			slide.classList.remove("active");
+			if (i === index) {
+				slide.classList.add("active");
+			}
+		});
+	}
+
+	function nextSlide() {
+		currentIndex = (currentIndex + 1) % slides.length;
+		showSlide(currentIndex);
+	}
+
+	setInterval(nextSlide, 1000); // Changes slide every 2 seconds
+
+	showSlide(currentIndex);
+});
+
+
 
 (function($) {
 

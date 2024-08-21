@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-    Massively by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
@@ -12,7 +7,10 @@
     <meta name="keywords" content="Data Scientist, Python, SQL, Deep Learning, NLP, Docker, Cloud, MLOps, Portfolio" />
     <title>Barry Tidiane - Portfolio</title>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <!-- Include Slick CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> 
 </head>
 <body class="is-preload">
 
@@ -53,7 +51,25 @@
                     <h2>Projets Data Scientist réalisés<br /></h2>
                     <p>Découvrez des projets captivants où j'ai mis en pratique mes compétences en Data Science pour résoudre des défis complexes.</p>
                 </header>
-                <img src="images/portfolio_projets.jpeg" alt="Schéma de Data Science" class="image main" />
+                <!-- Image carousel -->
+                 <div class="image-carousel">
+                    <div class="image-slide">
+                        <div class="project-title">Segmentation des clients d'un site e-commerce</div>
+                        <img src="images/K_TSNE_result.jpg" alt="Segmentation de clients" class="image main" />
+                    </div>
+                    <div class="image-slide">
+                        <div class="project-title">Classification automatique des biens de consommation</div>
+                        <img src="images/classif_.png" alt="Classification automatique des produits" class="image main" />
+                    </div>
+                    <div class="image-slide">
+                        <div class="project-title">Modèle de scoring pour la gestion du risque crédit</div>
+                        <img src="images/final_scoring.png" alt="Modèle de scoring" class="image main" />
+                    </div>
+                    <div class="image-slide">
+                        <div class="project-title">Déployez un Modèle dans le Cloud</div>
+                        <img src="images/cloud.jpg" alt="Modèle dans le Cloud" class="image main" />
+                    </div>
+                </div>
             </article>
 
             <!-- Posts -->
@@ -62,7 +78,7 @@
                     <header>
                         <h2><a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet5_segmentezDesClientsDUnSiteECcommerce">Segmentation des clients d'un site e-commerce<br /></a></h2>
                     </header>
-                    <a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet5_segmentezDesClientsDUnSiteECcommerce" class="image fit"><img src="images/segmentation.jpg" alt="Segmentation de clients" /></a>
+                    <a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet5_segmentezDesClientsDUnSiteECcommerce" class="image fit"><img src="images/K_TSNE_result.jpg" alt="Segmentation de clients" /></a>
                     <p>J'ai analysé les comportements d'achat de 100 000 clients d'Olist pour créer une segmentation précise. Cette solution vise à optimiser les campagnes marketing futures, avec des objectifs d'augmentation de 30% du taux d'engagement et de 25% des ventes dans les six mois.</p>
                     <p><strong>Outils utilisés</strong><br />
                     - **Clustering :** K-means et DBSCAN pour identifier des segments distincts<br />
@@ -91,12 +107,12 @@
                 </article>                                                            
                 <article>
                     <header>
-                        <h2><a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet7_implémentezUnModèleDeScoring">Modèle de Scoring et Dashboard Interactif pour "Prêt à Dépenser"<br /></a></h2>
+                        <h2><a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet7_implémentezUnModèleDeScoring">Modèle de Scoring et Dashboard Interactif<br /></a></h2>
                     </header>
                     <a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet7_implémentezUnModèleDeScoring" class="image fit">
                         <img src="images/final_scoring.png" alt="Modèle de scoring" />
                     </a>
-                    <p>Pour "Prêt à Dépenser", j'ai mis en place un modèle de scoring avancé qui a réduit de 15% le taux de défaut de paiement en un an et développé un dashboard interactif permettant de réduire de 40% le temps de traitement des demandes pour plus de 500 gestionnaires de crédits. Ce projet vise à améliorer la précision des décisions de crédit tout en augmentant la transparence et l'efficacité du processus d'octroi.</p>
+                    <p>Pour "Prêt à Dépenser", j'ai mis en place un modèle de scoring avancé qui a réduit de 15% le taux de défaut de paiement en un an et développé un dashboard interactif permettant de réduire de 40% le temps de traitement des demandes de prêts pour plus de 500 gestionnaires de crédits. Ce projet vise à améliorer la précision des décisions de crédit tout en augmentant la transparence et l'efficacité du processus d'octroi.</p>
                     <p><strong>Outils Utilisés</strong><br />
                     - **Modélisation :** Python, scikit-learn (création et évaluation du modèle), GridSearchCV (optimisation des hyperparamètres)<br />
                     - **Dashboard :** Streamlit pour la visualisation interactive<br />
@@ -108,10 +124,10 @@
                 </article>                                                     
                 <article>
                     <header>
-                        <h2><a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet8_déployezUnModèleDansLeCloud">Fruits! – Infrastructure Big Data sur AWS<br /></a></h2>
+                        <h2><a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet8_déployezUnModèleDansLeCloud">Déployez un Modèle dans le Cloud<br /></a></h2>
                     </header>
                     <a href="https://github.com/TBarry79/DataScience-Projects/tree/main/Projet8_déployezUnModèleDansLeCloud" class="image fit">
-                        <img src="images/cloud.jpg" alt="Infrastructure Big Data" />
+                        <img src="images/cloud.jpg" alt="Modèle dans le cloud" />
                     </a>
                     <p>Pour le projet "Fruits!", j'ai déployé une infrastructure Big Data sur AWS EMR avec Pyspark, permettant de traiter plus de 1 million d'images de fruits par mois. Cette solution a réduit le temps de traitement de 70% et les coûts opérationnels de 20%, en visant à créer une infrastructure scalable et performante pour le traitement d'images à grande échelle.</p>
                     <p><strong>Outils et techniques utilisés</strong><br />

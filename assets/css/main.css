@@ -1,42 +1,79 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
-/* Style pour la section d'introduction */
+/* Style for the introduction section */
 #intro {
-    text-align: center; /* Centrer le texte et les images */
-    padding: 20px; /* Ajuster le padding global pour plus de compacité */
+    text-align: center; /* Center text and images */
+    padding: 20px; /* Adjust global padding for more compactness */
 }
 
 #intro h1 {
-    font-size: 2.5em; /* Taille du titre */
-    margin-bottom: 10px; /* Espace sous le titre */
+    font-size: 2.5em; /* Title size */
+    margin-bottom: 10px; /* Space below the title */
 }
 
 #intro .image.profile {
-    max-width: 150px; /* Ajuster la taille de l'image */
-    border-radius: 50%; /* Rendre l'image ronde */
-    margin: 10px 0; /* Réduire l'espace autour de l'image */
+    max-width: 150px; /* Adjust the image size */
+    border-radius: 50%; /* Make the image round */
+    margin: 10px 0; /* Reduce space around the image */
 }
 
 #intro p {
-    font-size: 1em; /* Taille de la police pour les paragraphes */
-    margin: 0 0 10px; /* Réduire l'espace sous les paragraphes */
+    font-size: 1em; /* Font size for paragraphs */
+    margin: 0 0 10px; /* Reduce space below paragraphs */
 }
 
 #intro .actions {
-    margin-top: 20px; /* Espacement avant le bouton */
+    margin-top: 20px; /* Spacing before the button */
 }
 
 #intro .actions .button {
-    font-size: 1em; /* Taille du bouton */
-    padding: 10px 20px; /* Padding pour le bouton */
+    font-size: 1em; /* Button size */
+    padding: 10px 20px; /* Padding for the button */
 }
+
+
+ /* Style pour les images du carrousel */
+ .image-carousel img {
+	max-width: 500px;
+	height: 400px;
+	object-fit: cover;
+	border: 5px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	margin: 0 auto;
+	display: block;
+}
+
+/* Customised style for the image carousel */
+.image-carousel {
+	text-align: center;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 15px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Hide inactive slides */
+.image-slide {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Show only the active slide */
+.image-slide.active {
+	display: flex;
+}
+
+.image-carousel .project-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #333;
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
